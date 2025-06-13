@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+nav i {
+  font-size: 2rem;
+}
+
+main,
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  gap: 4rem;
+}
+
+section {
+  gap: 1rem;
+}
+
+.intro-description {
+  max-width: 450px;
+}
