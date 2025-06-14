@@ -30,6 +30,17 @@ nav i {
   font-size: 2rem;
 }
 
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo-text-first-letter {
+  color: black;
+  font-size: 3rem;
+}
+
 main,
 section {
   display: flex;
@@ -46,4 +57,45 @@ section {
 
 .intro-description {
   max-width: 450px;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.cards-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.tech-list {
+  display: flex;
+  gap: 2rem;
+}
+
+/* >640px */
+
+@media (min-width: 640px) {
+  .project-card {
+    flex-direction: row;
+  }
+
+  .project-card img {
+    max-width: 40%;
+  }
 }
